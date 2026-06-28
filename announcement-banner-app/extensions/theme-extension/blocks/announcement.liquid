@@ -1,0 +1,20 @@
+<div id="announcement-banner" style="
+  background-color: #1a1a2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  position: relative;
+  z-index: 999;
+">
+  {{ shop.metafields.my_app.announcement.value | default: 'Welcome to our store!' }}
+</div>
+
+{% schema %}
+{
+  "name": "Announcement Banner",
+  "target": "body"
+}
+{% endschema %}
