@@ -2,7 +2,7 @@
 
 client_id = "e0353598016e7e3d28ffc1e8e48360c9"
 name = "stable-customer-app"
-application_url = "https://example.com"
+application_url = "https://shopify-announcement-banner-1dx6.onrender.com"
 embedded = true
 
 [access_scopes]
